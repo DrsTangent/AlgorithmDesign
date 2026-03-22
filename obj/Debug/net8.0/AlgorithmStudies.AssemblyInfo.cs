@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlgorithmStudies")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c35c3c1c54467ca1398f6660c79bc7c23af26fab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55f189fc272d01ad60acf8bd5acb47b90378093c")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlgorithmStudies")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlgorithmStudies")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

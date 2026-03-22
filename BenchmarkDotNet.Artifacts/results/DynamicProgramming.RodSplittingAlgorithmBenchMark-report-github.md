@@ -8,14 +8,14 @@ Intel Core i5-6300U CPU 2.40GHz (Max: 2.80GHz) (Skylake), 1 CPU, 4 logical and 2
 
 
 ```
-| Method                         | rodLength | Mean         | Error        | StdDev        | Median       |
-|------------------------------- |---------- |-------------:|-------------:|--------------:|-------------:|
-| **TopButtomGetMaxRevenueWithDict** | **10**        |   **3,065.5 ns** |    **215.05 ns** |     **634.09 ns** |   **2,923.5 ns** |
-| TopButtomGetMaxRevenue         | 10        |     860.1 ns |     47.79 ns |     140.91 ns |     869.9 ns |
-| BottomUpGetMaxRevenue          | 10        |     462.4 ns |     30.66 ns |      89.93 ns |     463.2 ns |
-| **TopButtomGetMaxRevenueWithDict** | **100**       |  **46,582.7 ns** |  **3,687.93 ns** |  **10,873.94 ns** |  **46,788.6 ns** |
-| TopButtomGetMaxRevenue         | 100       |  13,992.2 ns |  1,103.59 ns |   3,253.95 ns |  12,993.2 ns |
-| BottomUpGetMaxRevenue          | 100       |   7,006.5 ns |    404.28 ns |   1,192.04 ns |   7,009.0 ns |
-| **TopButtomGetMaxRevenueWithDict** | **1000**      | **516,091.2 ns** | **53,147.17 ns** | **149,902.54 ns** | **525,000.2 ns** |
-| TopButtomGetMaxRevenue         | 1000      | 175,605.8 ns | 18,388.40 ns |  54,218.61 ns | 173,000.7 ns |
-| BottomUpGetMaxRevenue          | 1000      |  76,428.7 ns |  5,987.99 ns |  17,655.71 ns |  75,204.3 ns |
+| Method                         | rodLength | Mean         | Error       | StdDev      | Median       |
+|------------------------------- |---------- |-------------:|------------:|------------:|-------------:|
+| **TopButtomGetMaxRevenueWithDict** | **10**        |     **794.8 ns** |    **13.99 ns** |    **11.68 ns** |     **797.0 ns** |
+| TopButtomGetMaxRevenue         | 10        |     252.6 ns |     6.59 ns |    17.81 ns |     245.3 ns |
+| BottomUpGetMaxRevenue          | 10        |     125.1 ns |     1.42 ns |     1.33 ns |     124.9 ns |
+| **TopButtomGetMaxRevenueWithDict** | **100**       |   **9,426.4 ns** |   **154.06 ns** |   **144.11 ns** |   **9,421.7 ns** |
+| TopButtomGetMaxRevenue         | 100       |   4,156.0 ns |    82.11 ns |   181.95 ns |   4,135.9 ns |
+| BottomUpGetMaxRevenue          | 100       |   2,297.2 ns |    39.68 ns |    35.17 ns |   2,297.5 ns |
+| **TopButtomGetMaxRevenueWithDict** | **1000**      | **101,151.3 ns** | **2,002.00 ns** | **3,558.55 ns** | **100,994.7 ns** |
+| TopButtomGetMaxRevenue         | 1000      |  33,276.2 ns |   656.77 ns | 1,495.80 ns |  32,681.0 ns |
+| BottomUpGetMaxRevenue          | 1000      |  23,132.1 ns |   449.87 ns |   630.65 ns |  23,063.3 ns |

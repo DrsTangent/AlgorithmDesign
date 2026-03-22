@@ -1399,3 +1399,294 @@ WorkloadPilot    8: 2048 op, 53486753.00 ns, 26.1166 us/op
 WorkloadPilot    9: 4096 op, 126212466.00 ns, 30.8136 us/op
 WorkloadPilot   10: 8192 op, 196270159.00 ns, 23.9588 us/op
 WorkloadPilot   11: 16384 op, 380926214.00 ns, 23.2499 us/op
+WorkloadPilot   12: 32768 op, 764951397.00 ns, 23.3445 us/op
+
+OverheadWarmup   1: 32768 op, 113936.00 ns, 3.4771 ns/op
+OverheadWarmup   2: 32768 op, 172616.00 ns, 5.2678 ns/op
+OverheadWarmup   3: 32768 op, 1216003.00 ns, 37.1095 ns/op
+OverheadWarmup   4: 32768 op, 1267778.00 ns, 38.6895 ns/op
+OverheadWarmup   5: 32768 op, 229837.00 ns, 7.0141 ns/op
+OverheadWarmup   6: 32768 op, 248035.00 ns, 7.5694 ns/op
+OverheadWarmup   7: 32768 op, 225874.00 ns, 6.8931 ns/op
+
+OverheadActual   1: 32768 op, 196693.00 ns, 6.0026 ns/op
+OverheadActual   2: 32768 op, 170227.00 ns, 5.1949 ns/op
+OverheadActual   3: 32768 op, 155348.00 ns, 4.7408 ns/op
+OverheadActual   4: 32768 op, 129990.00 ns, 3.9670 ns/op
+OverheadActual   5: 32768 op, 116712.00 ns, 3.5618 ns/op
+OverheadActual   6: 32768 op, 103578.00 ns, 3.1609 ns/op
+OverheadActual   7: 32768 op, 707189.00 ns, 21.5817 ns/op
+OverheadActual   8: 32768 op, 346108.00 ns, 10.5624 ns/op
+OverheadActual   9: 32768 op, 162128.00 ns, 4.9478 ns/op
+OverheadActual  10: 32768 op, 705421.00 ns, 21.5277 ns/op
+OverheadActual  11: 32768 op, 166298.00 ns, 5.0750 ns/op
+OverheadActual  12: 32768 op, 160097.00 ns, 4.8858 ns/op
+OverheadActual  13: 32768 op, 151341.00 ns, 4.6186 ns/op
+OverheadActual  14: 32768 op, 963296.00 ns, 29.3975 ns/op
+OverheadActual  15: 32768 op, 267775.00 ns, 8.1718 ns/op
+OverheadActual  16: 32768 op, 103647.00 ns, 3.1631 ns/op
+OverheadActual  17: 32768 op, 102751.00 ns, 3.1357 ns/op
+OverheadActual  18: 32768 op, 363484.00 ns, 11.0927 ns/op
+OverheadActual  19: 32768 op, 136171.00 ns, 4.1556 ns/op
+OverheadActual  20: 32768 op, 166358.00 ns, 5.0768 ns/op
+
+WorkloadWarmup   1: 32768 op, 776663974.00 ns, 23.7019 us/op
+WorkloadWarmup   2: 32768 op, 751948144.00 ns, 22.9476 us/op
+WorkloadWarmup   3: 32768 op, 762572139.00 ns, 23.2719 us/op
+WorkloadWarmup   4: 32768 op, 780633390.00 ns, 23.8230 us/op
+WorkloadWarmup   5: 32768 op, 737127515.00 ns, 22.4953 us/op
+WorkloadWarmup   6: 32768 op, 761599339.00 ns, 23.2422 us/op
+WorkloadWarmup   7: 32768 op, 753573393.00 ns, 22.9972 us/op
+
+// BeforeActualRun
+WorkloadActual   1: 32768 op, 760027534.00 ns, 23.1942 us/op
+WorkloadActual   2: 32768 op, 796874217.00 ns, 24.3187 us/op
+WorkloadActual   3: 32768 op, 1026142866.00 ns, 31.3154 us/op
+WorkloadActual   4: 32768 op, 982274323.00 ns, 29.9766 us/op
+WorkloadActual   5: 32768 op, 751809484.00 ns, 22.9434 us/op
+WorkloadActual   6: 32768 op, 785698918.00 ns, 23.9776 us/op
+WorkloadActual   7: 32768 op, 731116756.00 ns, 22.3119 us/op
+WorkloadActual   8: 32768 op, 750816864.00 ns, 22.9131 us/op
+WorkloadActual   9: 32768 op, 755901554.00 ns, 23.0683 us/op
+WorkloadActual  10: 32768 op, 729691521.00 ns, 22.2684 us/op
+WorkloadActual  11: 32768 op, 734042187.00 ns, 22.4012 us/op
+WorkloadActual  12: 32768 op, 769416119.00 ns, 23.4807 us/op
+WorkloadActual  13: 32768 op, 734326702.00 ns, 22.4099 us/op
+WorkloadActual  14: 32768 op, 729194412.00 ns, 22.2532 us/op
+WorkloadActual  15: 32768 op, 747386901.00 ns, 22.8084 us/op
+WorkloadActual  16: 32768 op, 736450394.00 ns, 22.4747 us/op
+WorkloadActual  17: 32768 op, 759696584.00 ns, 23.1841 us/op
+WorkloadActual  18: 32768 op, 774371511.00 ns, 23.6319 us/op
+WorkloadActual  19: 32768 op, 939971751.00 ns, 28.6857 us/op
+WorkloadActual  20: 32768 op, 768036340.00 ns, 23.4386 us/op
+WorkloadActual  21: 32768 op, 750603830.00 ns, 22.9066 us/op
+WorkloadActual  22: 32768 op, 767660543.00 ns, 23.4271 us/op
+WorkloadActual  23: 32768 op, 780555172.00 ns, 23.8207 us/op
+WorkloadActual  24: 32768 op, 751148157.00 ns, 22.9232 us/op
+WorkloadActual  25: 32768 op, 764041662.00 ns, 23.3167 us/op
+WorkloadActual  26: 32768 op, 811691677.00 ns, 24.7709 us/op
+WorkloadActual  27: 32768 op, 742124525.00 ns, 22.6478 us/op
+WorkloadActual  28: 32768 op, 751047596.00 ns, 22.9202 us/op
+WorkloadActual  29: 32768 op, 764554863.00 ns, 23.3324 us/op
+WorkloadActual  30: 32768 op, 771911826.00 ns, 23.5569 us/op
+
+// AfterActualRun
+WorkloadResult   1: 32768 op, 759863321.00 ns, 23.1892 us/op
+WorkloadResult   2: 32768 op, 796710004.00 ns, 24.3137 us/op
+WorkloadResult   3: 32768 op, 751645271.00 ns, 22.9384 us/op
+WorkloadResult   4: 32768 op, 785534705.00 ns, 23.9726 us/op
+WorkloadResult   5: 32768 op, 730952543.00 ns, 22.3069 us/op
+WorkloadResult   6: 32768 op, 750652651.00 ns, 22.9081 us/op
+WorkloadResult   7: 32768 op, 755737341.00 ns, 23.0633 us/op
+WorkloadResult   8: 32768 op, 729527308.00 ns, 22.2634 us/op
+WorkloadResult   9: 32768 op, 733877974.00 ns, 22.3962 us/op
+WorkloadResult  10: 32768 op, 769251906.00 ns, 23.4757 us/op
+WorkloadResult  11: 32768 op, 734162489.00 ns, 22.4049 us/op
+WorkloadResult  12: 32768 op, 729030199.00 ns, 22.2482 us/op
+WorkloadResult  13: 32768 op, 747222688.00 ns, 22.8034 us/op
+WorkloadResult  14: 32768 op, 736286181.00 ns, 22.4697 us/op
+WorkloadResult  15: 32768 op, 759532371.00 ns, 23.1791 us/op
+WorkloadResult  16: 32768 op, 774207298.00 ns, 23.6269 us/op
+WorkloadResult  17: 32768 op, 767872127.00 ns, 23.4336 us/op
+WorkloadResult  18: 32768 op, 750439617.00 ns, 22.9016 us/op
+WorkloadResult  19: 32768 op, 767496330.00 ns, 23.4221 us/op
+WorkloadResult  20: 32768 op, 780390959.00 ns, 23.8156 us/op
+WorkloadResult  21: 32768 op, 750983944.00 ns, 22.9182 us/op
+WorkloadResult  22: 32768 op, 763877449.00 ns, 23.3117 us/op
+WorkloadResult  23: 32768 op, 811527464.00 ns, 24.7659 us/op
+WorkloadResult  24: 32768 op, 741960312.00 ns, 22.6428 us/op
+WorkloadResult  25: 32768 op, 750883383.00 ns, 22.9151 us/op
+WorkloadResult  26: 32768 op, 764390650.00 ns, 23.3274 us/op
+WorkloadResult  27: 32768 op, 771747613.00 ns, 23.5519 us/op
+
+// AfterAll
+// Benchmark Process 164881 has exited with code 0.
+
+Mean = 23.132 μs, StdErr = 0.121 μs (0.52%), N = 27, StdDev = 0.631 μs
+Min = 22.248 μs, Q1 = 22.723 μs, Median = 23.063 μs, Q3 = 23.455 μs, Max = 24.766 μs
+IQR = 0.732 μs, LowerFence = 21.626 μs, UpperFence = 24.552 μs
+ConfidenceInterval = [22.682 μs; 23.582 μs] (CI 99.9%), Margin = 0.450 μs (1.94% of Mean)
+Skewness = 0.6, Kurtosis = 2.9, MValue = 2
+
+// ** Remained 0 (0.0%) benchmark(s) to run. Estimated finish 2026-03-23 1:46 (0h 0m from now) **
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts/results/DynamicProgramming.RodSplittingAlgorithmBenchMark-report.csv
+  BenchmarkDotNet.Artifacts/results/DynamicProgramming.RodSplittingAlgorithmBenchMark-report-github.md
+  BenchmarkDotNet.Artifacts/results/DynamicProgramming.RodSplittingAlgorithmBenchMark-report.html
+
+// * Detailed results *
+RodSplittingAlgorithmBenchMark.TopButtomGetMaxRevenueWithDict: DefaultJob [rodLength=10]
+Runtime = .NET 8.0.17 (8.0.17, 8.0.1725.26602), X64 RyuJIT x86-64-v3; GC = Concurrent Workstation
+Mean = 794.817 ns, StdErr = 3.240 ns (0.41%), N = 13, StdDev = 11.681 ns
+Min = 773.435 ns, Q1 = 783.173 ns, Median = 797.017 ns, Q3 = 804.280 ns, Max = 811.119 ns
+IQR = 21.108 ns, LowerFence = 751.511 ns, UpperFence = 835.942 ns
+ConfidenceInterval = [780.829 ns; 808.805 ns] (CI 99.9%), Margin = 13.988 ns (1.76% of Mean)
+Skewness = -0.41, Kurtosis = 1.73, MValue = 2
+-------------------- Histogram --------------------
+[770.521 ns ; 793.946 ns) | @@@@
+[793.946 ns ; 817.639 ns) | @@@@@@@@@
+---------------------------------------------------
+
+RodSplittingAlgorithmBenchMark.TopButtomGetMaxRevenue: DefaultJob [rodLength=10]
+Runtime = .NET 8.0.17 (8.0.17, 8.0.1725.26602), X64 RyuJIT x86-64-v3; GC = Concurrent Workstation
+Mean = 252.556 ns, StdErr = 1.931 ns (0.76%), N = 85, StdDev = 17.806 ns
+Min = 229.361 ns, Q1 = 242.778 ns, Median = 245.292 ns, Q3 = 251.613 ns, Max = 320.360 ns
+IQR = 8.835 ns, LowerFence = 229.526 ns, UpperFence = 264.865 ns
+ConfidenceInterval = [245.970 ns; 259.143 ns] (CI 99.9%), Margin = 6.586 ns (2.61% of Mean)
+Skewness = 2, Kurtosis = 6.56, MValue = 2
+-------------------- Histogram --------------------
+[227.903 ns ; 238.485 ns) | @@@
+[238.485 ns ; 249.116 ns) | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[249.116 ns ; 260.156 ns) | @@@@@@@@@@
+[260.156 ns ; 269.001 ns) | @
+[269.001 ns ; 279.632 ns) | @@@@@@@@
+[279.632 ns ; 288.464 ns) | @
+[288.464 ns ; 299.095 ns) | @@@
+[299.095 ns ; 315.472 ns) | @@
+[315.472 ns ; 325.676 ns) | @
+---------------------------------------------------
+
+RodSplittingAlgorithmBenchMark.BottomUpGetMaxRevenue: DefaultJob [rodLength=10]
+Runtime = .NET 8.0.17 (8.0.17, 8.0.1725.26602), X64 RyuJIT x86-64-v3; GC = Concurrent Workstation
+Mean = 125.136 ns, StdErr = 0.343 ns (0.27%), N = 15, StdDev = 1.328 ns
+Min = 123.480 ns, Q1 = 124.066 ns, Median = 124.949 ns, Q3 = 125.981 ns, Max = 127.994 ns
+IQR = 1.914 ns, LowerFence = 121.195 ns, UpperFence = 128.852 ns
+ConfidenceInterval = [123.717 ns; 126.556 ns] (CI 99.9%), Margin = 1.420 ns (1.13% of Mean)
+Skewness = 0.54, Kurtosis = 2.22, MValue = 2
+-------------------- Histogram --------------------
+[122.773 ns ; 125.340 ns) | @@@@@@@@@
+[125.340 ns ; 128.701 ns) | @@@@@@
+---------------------------------------------------
+
+RodSplittingAlgorithmBenchMark.TopButtomGetMaxRevenueWithDict: DefaultJob [rodLength=100]
+Runtime = .NET 8.0.17 (8.0.17, 8.0.1725.26602), X64 RyuJIT x86-64-v3; GC = Concurrent Workstation
+Mean = 9.426 μs, StdErr = 0.037 μs (0.39%), N = 15, StdDev = 0.144 μs
+Min = 9.248 μs, Q1 = 9.314 μs, Median = 9.422 μs, Q3 = 9.512 μs, Max = 9.751 μs
+IQR = 0.198 μs, LowerFence = 9.017 μs, UpperFence = 9.809 μs
+ConfidenceInterval = [9.272 μs; 9.580 μs] (CI 99.9%), Margin = 0.154 μs (1.63% of Mean)
+Skewness = 0.55, Kurtosis = 2.39, MValue = 2
+-------------------- Histogram --------------------
+[9.222 μs ; 9.592 μs) | @@@@@@@@@@@@@
+[9.592 μs ; 9.827 μs) | @@
+---------------------------------------------------
+
+RodSplittingAlgorithmBenchMark.TopButtomGetMaxRevenue: DefaultJob [rodLength=100]
+Runtime = .NET 8.0.17 (8.0.17, 8.0.1725.26602), X64 RyuJIT x86-64-v3; GC = Concurrent Workstation
+Mean = 4.156 μs, StdErr = 0.024 μs (0.57%), N = 59, StdDev = 0.182 μs
+Min = 3.810 μs, Q1 = 4.011 μs, Median = 4.136 μs, Q3 = 4.249 μs, Max = 4.597 μs
+IQR = 0.238 μs, LowerFence = 3.654 μs, UpperFence = 4.605 μs
+ConfidenceInterval = [4.074 μs; 4.238 μs] (CI 99.9%), Margin = 0.082 μs (1.98% of Mean)
+Skewness = 0.7, Kurtosis = 2.92, MValue = 2.1
+-------------------- Histogram --------------------
+[3.748 μs ; 3.867 μs) | @
+[3.867 μs ; 3.963 μs) | @@@@
+[3.963 μs ; 4.086 μs) | @@@@@@@@@@@@@@@@@@@@
+[4.086 μs ; 4.235 μs) | @@@@@@@@@@@@@@@@@@@
+[4.235 μs ; 4.373 μs) | @@@@@@@@
+[4.373 μs ; 4.514 μs) | @@@
+[4.514 μs ; 4.658 μs) | @@@@
+---------------------------------------------------
+
+RodSplittingAlgorithmBenchMark.BottomUpGetMaxRevenue: DefaultJob [rodLength=100]
+Runtime = .NET 8.0.17 (8.0.17, 8.0.1725.26602), X64 RyuJIT x86-64-v3; GC = Concurrent Workstation
+Mean = 2.297 μs, StdErr = 0.009 μs (0.41%), N = 14, StdDev = 0.035 μs
+Min = 2.236 μs, Q1 = 2.293 μs, Median = 2.297 μs, Q3 = 2.321 μs, Max = 2.351 μs
+IQR = 0.028 μs, LowerFence = 2.251 μs, UpperFence = 2.362 μs
+ConfidenceInterval = [2.258 μs; 2.337 μs] (CI 99.9%), Margin = 0.040 μs (1.73% of Mean)
+Skewness = -0.47, Kurtosis = 2.04, MValue = 2
+-------------------- Histogram --------------------
+[2.217 μs ; 2.265 μs) | @@@
+[2.265 μs ; 2.370 μs) | @@@@@@@@@@@
+---------------------------------------------------
+
+RodSplittingAlgorithmBenchMark.TopButtomGetMaxRevenueWithDict: DefaultJob [rodLength=1000]
+Runtime = .NET 8.0.17 (8.0.17, 8.0.1725.26602), X64 RyuJIT x86-64-v3; GC = Concurrent Workstation
+Mean = 101.151 μs, StdErr = 0.563 μs (0.56%), N = 40, StdDev = 3.559 μs
+Min = 93.403 μs, Q1 = 98.870 μs, Median = 100.995 μs, Q3 = 103.969 μs, Max = 107.079 μs
+IQR = 5.099 μs, LowerFence = 91.222 μs, UpperFence = 111.617 μs
+ConfidenceInterval = [99.149 μs; 103.153 μs] (CI 99.9%), Margin = 2.002 μs (1.98% of Mean)
+Skewness = -0.06, Kurtosis = 2.16, MValue = 2.57
+-------------------- Histogram --------------------
+[ 92.733 μs ;  95.531 μs) | @@
+[ 95.531 μs ;  98.263 μs) | @@@@@@@@
+[ 98.263 μs ; 101.775 μs) | @@@@@@@@@@@@@@
+[101.775 μs ; 104.447 μs) | @@@@@@
+[104.447 μs ; 107.178 μs) | @@@@@@@@@@
+---------------------------------------------------
+
+RodSplittingAlgorithmBenchMark.TopButtomGetMaxRevenue: DefaultJob [rodLength=1000]
+Runtime = .NET 8.0.17 (8.0.17, 8.0.1725.26602), X64 RyuJIT x86-64-v3; GC = Concurrent Workstation
+Mean = 33.276 μs, StdErr = 0.190 μs (0.57%), N = 62, StdDev = 1.496 μs
+Min = 31.095 μs, Q1 = 32.275 μs, Median = 32.681 μs, Q3 = 34.155 μs, Max = 37.362 μs
+IQR = 1.880 μs, LowerFence = 29.456 μs, UpperFence = 36.975 μs
+ConfidenceInterval = [32.619 μs; 33.933 μs] (CI 99.9%), Margin = 0.657 μs (1.97% of Mean)
+Skewness = 1, Kurtosis = 3.29, MValue = 2.14
+-------------------- Histogram --------------------
+[30.788 μs ; 31.807 μs) | @@@@
+[31.807 μs ; 32.799 μs) | @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+[32.799 μs ; 34.400 μs) | @@@@@@@@@@@@@@@
+[34.400 μs ; 35.535 μs) | @@@@@@@@
+[35.535 μs ; 36.570 μs) | @@
+[36.570 μs ; 37.562 μs) | @@@
+---------------------------------------------------
+
+RodSplittingAlgorithmBenchMark.BottomUpGetMaxRevenue: DefaultJob [rodLength=1000]
+Runtime = .NET 8.0.17 (8.0.17, 8.0.1725.26602), X64 RyuJIT x86-64-v3; GC = Concurrent Workstation
+Mean = 23.132 μs, StdErr = 0.121 μs (0.52%), N = 27, StdDev = 0.631 μs
+Min = 22.248 μs, Q1 = 22.723 μs, Median = 23.063 μs, Q3 = 23.455 μs, Max = 24.766 μs
+IQR = 0.732 μs, LowerFence = 21.626 μs, UpperFence = 24.552 μs
+ConfidenceInterval = [22.682 μs; 23.582 μs] (CI 99.9%), Margin = 0.450 μs (1.94% of Mean)
+Skewness = 0.6, Kurtosis = 2.9, MValue = 2
+-------------------- Histogram --------------------
+[22.170 μs ; 22.721 μs) | @@@@@@@
+[22.721 μs ; 23.444 μs) | @@@@@@@@@@@@@
+[23.444 μs ; 24.000 μs) | @@@@@
+[24.000 μs ; 24.816 μs) | @@
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet v0.15.8, Linux Kali GNU/Linux 2024.4
+Intel Core i5-6300U CPU 2.40GHz (Max: 2.80GHz) (Skylake), 1 CPU, 4 logical and 2 physical cores
+.NET SDK 8.0.411
+  [Host]     : .NET 8.0.17 (8.0.17, 8.0.1725.26602), X64 RyuJIT x86-64-v3
+  DefaultJob : .NET 8.0.17 (8.0.17, 8.0.1725.26602), X64 RyuJIT x86-64-v3
+
+
+| Method                         | rodLength | Mean         | Error       | StdDev      | Median       |
+|------------------------------- |---------- |-------------:|------------:|------------:|-------------:|
+| TopButtomGetMaxRevenueWithDict | 10        |     794.8 ns |    13.99 ns |    11.68 ns |     797.0 ns |
+| TopButtomGetMaxRevenue         | 10        |     252.6 ns |     6.59 ns |    17.81 ns |     245.3 ns |
+| BottomUpGetMaxRevenue          | 10        |     125.1 ns |     1.42 ns |     1.33 ns |     124.9 ns |
+| TopButtomGetMaxRevenueWithDict | 100       |   9,426.4 ns |   154.06 ns |   144.11 ns |   9,421.7 ns |
+| TopButtomGetMaxRevenue         | 100       |   4,156.0 ns |    82.11 ns |   181.95 ns |   4,135.9 ns |
+| BottomUpGetMaxRevenue          | 100       |   2,297.2 ns |    39.68 ns |    35.17 ns |   2,297.5 ns |
+| TopButtomGetMaxRevenueWithDict | 1000      | 101,151.3 ns | 2,002.00 ns | 3,558.55 ns | 100,994.7 ns |
+| TopButtomGetMaxRevenue         | 1000      |  33,276.2 ns |   656.77 ns | 1,495.80 ns |  32,681.0 ns |
+| BottomUpGetMaxRevenue          | 1000      |  23,132.1 ns |   449.87 ns |   630.65 ns |  23,063.3 ns |
+
+// * Hints *
+Outliers
+  RodSplittingAlgorithmBenchMark.TopButtomGetMaxRevenueWithDict: Default -> 2 outliers were removed (983.20 ns, 991.86 ns)
+  RodSplittingAlgorithmBenchMark.TopButtomGetMaxRevenue: Default         -> 15 outliers were removed (328.05 ns..464.42 ns)
+  RodSplittingAlgorithmBenchMark.TopButtomGetMaxRevenue: Default         -> 5 outliers were removed (5.44 μs..7.39 μs)
+  RodSplittingAlgorithmBenchMark.BottomUpGetMaxRevenue: Default          -> 1 outlier  was  removed, 3 outliers were detected (2.24 μs, 2.24 μs, 2.39 μs)
+  RodSplittingAlgorithmBenchMark.TopButtomGetMaxRevenue: Default         -> 4 outliers were removed (40.69 μs..42.62 μs)
+  RodSplittingAlgorithmBenchMark.BottomUpGetMaxRevenue: Default          -> 3 outliers were removed (28.69 μs..31.32 μs)
+
+// * Legends *
+  rodLength : Value of the 'rodLength' parameter
+  Mean      : Arithmetic mean of all measurements
+  Error     : Half of 99.9% confidence interval
+  StdDev    : Standard deviation of all measurements
+  Median    : Value separating the higher half of all measurements (50th percentile)
+  1 ns      : 1 Nanosecond (0.000000001 sec)
+
+// ***** BenchmarkRunner: End *****
+Run time: 00:04:38 (278.21 sec), executed benchmarks: 9
+
+Global total time: 00:04:48 (288.05 sec), executed benchmarks: 9
+// * Artifacts cleanup *
+Artifacts cleanup is finished
