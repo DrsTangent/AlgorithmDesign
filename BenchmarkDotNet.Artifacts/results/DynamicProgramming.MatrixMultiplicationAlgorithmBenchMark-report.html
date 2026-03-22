@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>DynamicProgramming.MatrixMultiplicationAlgorithmBenchMark-20260323-012850</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet v0.15.8, Linux Kali GNU/Linux 2024.4
+Intel Core i5-6300U CPU 2.40GHz (Max: 2.70GHz) (Skylake), 1 CPU, 4 logical and 2 physical cores
+.NET SDK 8.0.411
+  [Host]     : .NET 8.0.17 (8.0.17, 8.0.1725.26602), X64 RyuJIT x86-64-v3
+  DefaultJob : .NET 8.0.17 (8.0.17, 8.0.1725.26602), X64 RyuJIT x86-64-v3
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>Method     </th><th>matricesCount</th><th>Mean </th><th>Error</th><th>StdDev</th><th>Median</th>
+</tr>
+</thead><tbody><tr><td>MatrixChainOrderI</td><td>2</td><td>98.20 ns</td><td>2.028 ns</td><td>2.490 ns</td><td>97.83 ns</td>
+</tr><tr><td>MatrixChainOrderR</td><td>2</td><td>105.65 ns</td><td>2.119 ns</td><td>3.171 ns</td><td>105.19 ns</td>
+</tr><tr><td>MatrixChainOrderI</td><td>3</td><td>134.29 ns</td><td>2.330 ns</td><td>3.189 ns</td><td>133.47 ns</td>
+</tr><tr><td>MatrixChainOrderR</td><td>3</td><td>137.36 ns</td><td>1.720 ns</td><td>1.343 ns</td><td>137.59 ns</td>
+</tr><tr><td>MatrixChainOrderI</td><td>4</td><td>170.45 ns</td><td>3.456 ns</td><td>3.979 ns</td><td>171.04 ns</td>
+</tr><tr><td>MatrixChainOrderR</td><td>4</td><td>222.32 ns</td><td>4.510 ns</td><td>5.538 ns</td><td>221.28 ns</td>
+</tr><tr><td>MatrixChainOrderI</td><td>5</td><td>247.76 ns</td><td>4.923 ns</td><td>5.861 ns</td><td>245.47 ns</td>
+</tr><tr><td>MatrixChainOrderR</td><td>5</td><td>315.81 ns</td><td>5.986 ns</td><td>4.999 ns</td><td>313.57 ns</td>
+</tr><tr><td>MatrixChainOrderI</td><td>6</td><td>351.44 ns</td><td>3.907 ns</td><td>3.655 ns</td><td>350.61 ns</td>
+</tr><tr><td>MatrixChainOrderR</td><td>6</td><td>494.13 ns</td><td>8.414 ns</td><td>7.870 ns</td><td>493.60 ns</td>
+</tr><tr><td>MatrixChainOrderI</td><td>7</td><td>467.47 ns</td><td>2.905 ns</td><td>2.575 ns</td><td>468.07 ns</td>
+</tr><tr><td>MatrixChainOrderR</td><td>7</td><td>851.63 ns</td><td>31.351 ns</td><td>91.948 ns</td><td>820.53 ns</td>
+</tr><tr><td>MatrixChainOrderI</td><td>8</td><td>663.68 ns</td><td>7.604 ns</td><td>6.349 ns</td><td>665.11 ns</td>
+</tr><tr><td>MatrixChainOrderR</td><td>8</td><td>1,202.31 ns</td><td>47.052 ns</td><td>137.997 ns</td><td>1,134.75 ns</td>
+</tr><tr><td>MatrixChainOrderI</td><td>9</td><td>852.12 ns</td><td>9.747 ns</td><td>9.117 ns</td><td>852.21 ns</td>
+</tr><tr><td>MatrixChainOrderR</td><td>9</td><td>1,500.95 ns</td><td>28.619 ns</td><td>69.662 ns</td><td>1,490.42 ns</td>
+</tr></tbody></table>
+</body>
+</html>
